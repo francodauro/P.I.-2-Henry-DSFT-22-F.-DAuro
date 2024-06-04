@@ -21,10 +21,11 @@ Los datos presentes en 'homicidios.xlsx' se sometieron a un Análisis Explorator
 
 Con los datos limpios generados en el EDA se crearon dos archivos de texto plano llamados 'HECHOS.csv' y 'VICTIMAS.csv'. El archivo 'HECHOS.csv' porta datos sobre los accidentes viales, mientras que 'VICTIMAS.csv' describe la situación de las personas afectadas. Estos archivos se utilizaron para realizar visualizaciones en tableros de control interactivos (dashboard) para obtener conclusiones útililes para la toma de desiciones.
 A continuación se nombran las visualizaciones realizadas:
-1- Gráficos de línea.
-2- Filtros interactivos.
-3- Tarjetas con medidas propias.
-4- Gráficos de barras simples y apiladas
-5- Histogramas
-6- Mapa con puntos georreferenciados
+1. Gráficos de línea.
+2. Filtros interactivos.
+3. Tarjetas con medidas propias.
+4. Gráficos de barras simples y apiladas
+5. Histogramas
+6. Mapa con puntos georreferenciados
 
+Entre las medidas calculadas, tres de ellas se utilizaron como KPI (Key Performance Indicator: Indicador Clave de Rendimiento).
