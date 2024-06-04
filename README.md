@@ -16,7 +16,7 @@ Los datos presentes en 'homicidios.xlsx' se sometieron a un Análisis Explorator
 6. Búsqueda y eliminación de registros repetidos.
 7. Verificación de la correcta estructura de cada tabla de datos realizada.
 8. Búsqueda de valores atípicos/extremos u outliers de las variables cuantitativas.
-9. Gráficos descriptivos coherentes según la tipología de variable.
+9. Gráficos descriptivos coherentes según la tipología de variable (cuantitativa o cualitativa).
 10. Documentación de las primeras conclusiones.
 
 Con los datos limpios generados en el EDA se crearon dos archivos de texto plano llamados 'HECHOS.csv' y 'VICTIMAS.csv'. El archivo 'HECHOS.csv' porta datos sobre los accidentes viales, mientras que 'VICTIMAS.csv' describe la situación de las personas afectadas. Estos archivos se utilizaron para realizar visualizaciones en tableros de control interactivos (dashboard) para obtener conclusiones útililes para la toma de desiciones.
@@ -29,8 +29,35 @@ A continuación se nombran las visualizaciones realizadas:
 6. Mapa con puntos georreferenciados
 
 Entre las medidas calculadas, tres de ellas se utilizaron como KPI (Key Performance Indicator: Indicador Clave de Rendimiento). Los KPI son medidas cuantitativas (métricas) de gran importancia que se contrastan con un valor de referencia asociado con una expectativa de logro. A continuación se presentan los tres KPI abordados:
+
 * Tasa semestral de homicidios en siniestros viales = número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante seis meses. Su fórmula es:
   
 _Tasa semestral de homicidios en siniestros viales = (Número de víctimas fatales / Población Total) * 100000_
+
 La meta es reducir un 10 % la tasa de homicidios en el último semestre respecto del semestre anterior.
+
+* Número de accidentes mortales de motociclistas en siniestros viales durante un año. Se pretende reducir un 7% el número de victimas fatales en moto durante el último año respecto del año anterior.
+
+ * Número de accidentes mortales de automovilistas en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales pasajeras de automóvil durante el último año respecto del año anterior.
+
+El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el codigo fue organizado en cuadernos (Notebook) utilizando la extensión de VSC, Jupyter.
+
+##### Resultados
+
+En el EDA se hicieron dos grandes grupos de gráficos: 1- histogramas de variables cuantitativas y, 2- gráficos de barras con el conteo de elementos de variables cualitativas.
+Del análisis de los histogramas se pudieron realizar las siguientes observaciones preliminares:
+1. El número de víctimas por año a decaído con el paso del tiempo.
+2. El número de víctimas por día es constante a los largo del mes.
+3. Durante fin de año se concentran los accidentes.
+4. La media mañana y la medianoche son los horarios con mayor riesgo de accidente.
+5. El número de víctimas por accidente es generalmente igual a 1.
+6. Los adultos jóvenes son los más accidentados.
+
+Los gráficos de barras de las variables cualitativas sugieren lo siguiente:
+1. La gran mayoría de los accidentes ocurren en avenidas y calles
+2. Los accidentes se concentran en el Sur y en el área comercial y turística (Ver Mapa de comunas de CABA)
+3. La gran mayoría de las víctimas son peatones, o pasajeros de autos y motos
+4. La gran mayoría de las víctimas son hombres
+5. La gran mayoría de las víctimas con vehículo son conductores
+6. La mayoría de los acusados son pasajeros de autos, transporte de cargas
 
