@@ -40,7 +40,7 @@ La meta es reducir un 10 % la tasa de homicidios en el último semestre respecto
 
  * Número de accidentes mortales de peatones en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales de peatones durante el último año respecto del año anterior.
 
-El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el código fue organizado en cuadernos (Notebook) utilizando la extensión de VSC llamada Jupyter. El dashboard fue realizado con la herramienta de visualización y análisis de datos Power BI de Microsoft.
+El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el código fue organizado en cuadernos (Notebook) utilizando la extensión de VSC llamada Jupyter. Dicho notebook se encuentra en el archivo 'EDA.ipynb'. El dashboard fue realizado con la herramienta de visualización y análisis de datos Power BI de Microsoft y guardado en el archivo 'PI2.pbix'.
 
 #### Resultados
 
