@@ -38,9 +38,9 @@ La meta es reducir un 10 % la tasa de homicidios en el último semestre respecto
 
 * Número de accidentes mortales de motociclistas en siniestros viales durante un año. Se pretende reducir un 7% el número de victimas fatales en moto durante el último año respecto del año anterior.
 
- * Número de accidentes mortales de automovilistas en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales pasajeras de automóvil durante el último año respecto del año anterior.
+ * Número de accidentes mortales de peatones en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales de peatones durante el último año respecto del año anterior.
 
-El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el codigo fue organizado en cuadernos (Notebook) utilizando la extensión de VSC, Jupyter.
+El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el codigo fue organizado en cuadernos (Notebook) utilizando la extensión de VSC, Jupyter. El dashboard fue realizado con la herramienta de visualización y análisis de datos Power BI de Microsoft.
 
 ##### Resultados
 
@@ -60,4 +60,19 @@ Los gráficos de barras de las variables cualitativas sugieren lo siguiente:
 4. La gran mayoría de las víctimas son hombres
 5. La gran mayoría de las víctimas con vehículo son conductores
 6. La mayoría de los acusados son pasajeros de autos, transporte de cargas
+
+El dashboard construido en Power BI corroboró las observaciones que resultaron de los gráficos del EDA. 
+
+Los cambios observados en los KPI permitieron contrastar las metas buscadas tal como se detalla a continuación:
+1. La Tasa de Homicidios en Siniestros Viales cayó un 12.5% durante los últimos 6 meses respecto al semestre anterior. Se cumplió con la meta de reducir un 10% esta tasa. 
+2. El número anual de accidentes mortales de motociclistas aumentó un 58.62% respecto del año anterior. No se logró con la expectativa de reducir este número en un 7%. 
+3. El número anual de accidentes mortales de peatones disminuyó un 5.71%% respecto del año anterior. No se logró con la expectativa de reducir este número en un 10%. 
+
+##### Recomendaciones
+
+En función de todos los resultados obtenidos. Se enuncian las siguientes sujerencias:
+
+1. Realizar campañas de concientización y prevención vial sobre la población con las siguientes características: varones, menores de 50 años, peatones o conductores de moto, auto o vehículo de carga.
+2. Reforzar los controles viales en avenidas y calles de las comunas 1, 3, 4 y 7, entre las 5 y 10 de la mañana.
+3. Se enfatiza la importancia de la prevención sobre la población de motociclistas ya que claramente presenta un fuerte aumento en el riesgo de muerte por accidente. 
 
