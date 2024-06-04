@@ -1,10 +1,10 @@
-#### Proyecto Individual 2: Data Analyst. Henry, Data Science Full Time 22, Franco D'Auro.
+### Proyecto Individual 2: Data Analyst. Henry, Data Science Full Time 22, Franco D'Auro.
 
-##### Introducción
+#### Introducción
 
 En este repositorio se presentan los archivos de un proyecto en el que se simula el desempeño de un Data Analyst. Particularme se pretende asistir al Observatorio de Movilidad y Seguridad Vial (OMSV), dependiente de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires. Esta organización pretende disminuir los accidentes fatales que ocurren en la Ciudad Autónoma de Buenos Aires (CABA). Para ello, el OMSV ha facilitado un dataset con valiosos datos sobre los accidentes viales ocurridos en CABA y sobre las víctimas afectadas. Por lo tanto se procede a analizar el dataset provisto para generar la información necesaria que permita asistir la toma de desiciones del OMSV.
 
-##### Materiales y métodos
+#### Materiales y métodos
 
 El dataset provisto consta de dos archivos llamados 'homicidios.xlsx' y 'Diccionario de datos Siniestros viales.xlsx'. El archivo 'homicidios.xlsx' tiene dos páginas, una llamada 'HECHOS' con datos relacionados a los accidentes viales, mientras que la otra se denomina 'VICTIMAS' y aporta información sobre las personas afectadas. En el archivo 'Diccionario de datos Siniestros viales.xlsx' se encuentran el significado real de las variables asociadas tanto a los accidentes, como sus víctimas.
 Los datos presentes en 'homicidios.xlsx' se sometieron a un Análisis Exploratorio de Datos (EDA por sus acrónimo en inglés) en el que se llevaron a cabo las siguientes tareas:
@@ -42,7 +42,7 @@ La meta es reducir un 10 % la tasa de homicidios en el último semestre respecto
 
 El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el código fue organizado en cuadernos (Notebook) utilizando la extensión de VSC llamada Jupyter. El dashboard fue realizado con la herramienta de visualización y análisis de datos Power BI de Microsoft.
 
-##### Resultados
+#### Resultados
 
 En el EDA se hicieron dos grandes grupos de gráficos: 1- histogramas de variables cuantitativas y, 2- gráficos de barras con el conteo de elementos de variables cualitativas.
 Del análisis de los histogramas se pudieron realizar las siguientes observaciones preliminares:
@@ -68,7 +68,7 @@ Los cambios observados en los KPI permitieron contrastar las metas buscadas tal 
 2. El número anual de accidentes mortales de motociclistas aumentó un 58.62% respecto del año anterior. No se logró con la expectativa de reducir este número en un 7%. 
 3. El número anual de accidentes mortales de peatones disminuyó un 5.71%% respecto del año anterior. No se logró con la expectativa de reducir este número en un 10%. 
 
-##### Recomendaciones
+#### Recomendaciones
 
 En función de todos los resultados obtenidos. Se enuncian las siguientes sujerencias:
 
