@@ -30,6 +30,7 @@ A continuación se nombran las visualizaciones realizadas:
 
 Entre las medidas calculadas, tres de ellas se utilizaron como KPI (Key Performance Indicator: Indicador Clave de Rendimiento). Los KPI son medidas cuantitativas (métricas) de gran importancia que se contrastan con un valor de referencia asociado con una expectativa de logro. A continuación se presentan los tres KPI abordados:
 * Tasa semestral de homicidios en siniestros viales = número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante seis meses. Su fórmula es: 
+
 Tasa semestral de homicidios en siniestros viales = \[
 \left( \frac{\text{Número de homicidios en siniestros viales}}{\text{Población total}} \right) \times 100000
 \]
