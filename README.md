@@ -28,17 +28,17 @@ A continuación se nombran las visualizaciones realizadas:
 5. Histogramas
 6. Mapa con puntos georreferenciados
 
-Entre las medidas calculadas, tres de ellas se utilizaron como KPI (Key Performance Indicator: Indicador Clave de Rendimiento). Los KPI son medidas cuantitativas (métricas) de gran importancia que se contrastan con un valor de referencia asociado con una expectativa de logro. A continuación se presentan los tres KPI abordados:
+Entre las medidas calculadas, tres de ellas se utilizaron como KPI (Key Performance Indicator: Indicador Clave de Rendimiento). Los KPI son medidas cuantitativas (métricas) de gran importancia que se contrastan con un valor de referencia asociado con una expectativa de logro. A continuación se presentan los tres KPI abordados con sus valores esperados:
 
-* Tasa de Homicidios en Siniestros Viales = número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante seis meses. Su fórmula es:
+1. Variacion porcentual entre semestres de la Tasa de Homicidios en Siniestros Viales. La tasa de Homicidios en Siniestros Viales es igual al número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo. Su fórmula es:
   
 _Tasa de homicidios en siniestros viales = (Número de víctimas fatales / Población Total) * 100000_
 
 La meta es reducir un 10 % la tasa de homicidios en el último semestre respecto del semestre anterior.
 
-* Número de accidentes mortales de motociclistas en siniestros viales durante un año. Se pretende reducir un 7% el número de victimas fatales en moto durante el último año respecto del año anterior.
+2. Cambio porcentual interanual del número de accidentes mortales de motociclistas en siniestros viales. Se pretende reducir un 7% el número de victimas fatales en moto durante el último año respecto del año anterior.
 
- * Número de accidentes mortales de peatones en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales de peatones durante el último año respecto del año anterior.
+3. Cambio porcentual interanual del número de accidentes mortales de peatones en siniestros viales durante un año. Se pretende reducir un 10% el número de victimas fatales de peatones durante el último año respecto del año anterior.
 
 El EDA fue realizado en lenguaje Python 3 e interpretado por el entorno de desarrolo integrado Visual Studio Code (VSC) de Microsoft. Para mayor comodidad el código fue organizado en cuadernos (Notebook) utilizando la extensión de VSC llamada Jupyter. Dicho notebook se encuentra en el archivo 'EDA.ipynb'. El dashboard fue realizado con la herramienta de visualización y análisis de datos Power BI de Microsoft y guardado en el archivo 'PI2.pbix'.
 
@@ -63,9 +63,9 @@ Los gráficos de barras de las variables cualitativas sugieren lo siguiente:
 
 El dashboard construido en Power BI corroboró las observaciones que resultaron de los gráficos del EDA. 
 
-Los cambios observados en los KPI permitieron contrastar las metas buscadas tal como se detalla a continuación:
-1. La Tasa de Homicidios en Siniestros Viales cayó un 12.5% durante los últimos 6 meses respecto al semestre anterior. Se cumplió con la meta de reducir un 10% esta tasa. 
-2. El número anual de accidentes mortales de motociclistas aumentó un 58.62% respecto del año anterior. No se logró con la expectativa de reducir este número en un 7%. 
+Los de los KPI permitieron contrastar las metas buscadas tal como se detalla a continuación:
+1. La Tasa de Homicidios en Siniestros Viales cayó un 12.5% durante los últimos 6 meses respecto al semestre anterior. Se cumplió con la meta de reducir al menos un 10% esta tasa. 
+2. El número anual de accidentes mortales de motociclistas aumentó un 58.62% respecto del año anterior. No se logró con la expectativa de reducir esta cantidad en un 7%. 
 3. El número anual de accidentes mortales de peatones disminuyó un 5.71%% respecto del año anterior. No se logró con la expectativa de reducir este número en un 10%. 
 
 #### Recomendaciones
